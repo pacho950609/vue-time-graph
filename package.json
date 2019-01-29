@@ -1,0 +1,31 @@
+{
+  "name": "vue-time-graph",
+  "version": "1.1.1",
+  "description": "A Vue.js component to create a time serie graph with filters",
+  "main": "dist/vue-time-graph.js",
+  "scripts": {
+    "build": "rimraf ./dist && webpack --config ./webpack.config.js"
+  },
+  "author": "Francisco Ricaurte",
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "vue-chartjs": "^3.4.0",
+    "vuetify": "^1.4.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.10.4",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-transform-runtime": "^6.9.0",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-stage-2": "^6.11.0",
+    "babel-runtime": "^6.9.2",
+    "rimraf": "^2.6.1",
+    "vue": "^2.2.1",
+    "vue-html-loader": "^1.2.3",
+    "vue-loader": "^11.1.4",
+    "vue-style-loader": "^2.0.3",
+    "vue-template-compiler": "^2.2.1",
+    "webpack": "1.13.1",
+    "webpack-merge": "^4.1.0"
+  }
+}
